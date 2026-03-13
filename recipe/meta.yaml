@@ -1,5 +1,5 @@
 {% set name = "fs.dropboxfs" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fs_dropboxfs-{{ version }}.tar.gz
-  sha256: 9237cd4269b8572a857c73fb9d8f9c43ea08e799c2cebb7618eba01f9b4d5e1a
+  sha256: f96fb0115bedd8b5fb138ec91e08dc090c2f83271c6bb77da65b004b37b03776
 
 build:
   noarch: python
